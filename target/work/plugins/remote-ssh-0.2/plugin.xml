@@ -1,0 +1,21 @@
+<plugin name='remote-ssh' version='0.2' grailsVersion='2.0 &gt; *'>
+  <author>Vahid Hedayati</author>
+  <authorEmail>badvad@gmail.com</authorEmail>
+  <title>Remote SSH Plugin</title>
+  <description>Uses the Ganymed SSH-2 library to provide RemoteSSH, RemoteSCP, RemoteSCPDir, and RemoteSCPGet</description>
+  <documentation>http://grails.org/plugin/remote-ssh</documentation>
+  <type>RemoteSshGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <compile>
+      <dependency group='ch.ethz.ganymed' name='ganymed-ssh2' version='build210' />
+    </compile>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
